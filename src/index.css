@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square{
+   width: 200px;
+   height: 200px;
+   border: 2px 2px 5px #000;
+   border-radius: 2px;
+   display: grid;
+   place-content: center;
+   background-color: black;
+}
+.square p{
+  text-align: center;
+}
+form{
+  width: 200px;
+}
+label{
+  position: absolute;
+  left: -99999px;
+}
+input[type=text]{
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+  width: 100%;
+  font-size: 1rem;
+  box-shadow: 2px 2px 5px #000;
+  border-radius: 0.25rem;
+  outline: none;
+}
